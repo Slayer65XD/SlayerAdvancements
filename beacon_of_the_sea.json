@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": "Beacon of the Sea",
+    "description": "Create a full conduit",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effect": {
+          "effect": "minecraft:conduit_power",
+          "amplifier": 0
+        }
+      }
+    }
+  }
+}

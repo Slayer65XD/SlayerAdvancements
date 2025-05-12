@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_chicken"
+    },
+    "title": "Not the McSpicy Crumb!",
+    "description": "Eat a pufferfish",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slayeradvancements:iron_belly",
+  "criteria": {
+    "eat_pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    }
+  }
+}

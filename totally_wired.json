@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:waxed_weathered_cut_copper_stairs"
+      },
+      "title": "Totally Wired",
+      "description": "Obtain waxed weathered cut copper stairs",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "slayeradvancements:root",
+    "criteria": {
+      "get_copper_stairs": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:waxed_weathered_cut_copper_stairs"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

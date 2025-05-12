@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_egg"
+    },
+    "title": "Oology",
+    "description": "Collect every type of egg",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "blue_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:blue_egg"] }]
+      }
+    },
+    "brown_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:brown_egg"] }]
+      }
+    },
+    "regular_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:egg"] }]
+      }
+    },
+    "sniffer_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:sniffer_egg"] }]
+      }
+    },
+    "turtle_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:turtle_egg"] }]
+      }
+    },
+    "dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:dragon_egg"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["blue_egg"],
+    ["brown_egg"],
+    ["regular_egg"],
+    ["sniffer_egg"],
+    ["turtle_egg"],
+    ["dragon_egg"]
+  ]
+}

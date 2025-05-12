@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:barrier"
+      },
+      "title": "Harvie's Impossible Challenge",
+      "description": "Make a full-ass build",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "slayeradvancements:root",
+    "criteria": {
+      "obtain_bedrock": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:bedrock"]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

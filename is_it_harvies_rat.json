@@ -1,0 +1,41 @@
+{
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "spyglass_at_emite": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:spyglass"
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "looking_at": {
+                  "type": "minecraft:endermite"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "display": {
+    "description": "Use a spyglass on an endermite",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spyglass"
+    },
+    "title": "Is it Harvie's Rat?"
+  },
+  "requirements": [
+    [
+      "spyglass_at_emite"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

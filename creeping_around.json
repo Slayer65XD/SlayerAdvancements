@@ -1,0 +1,36 @@
+{
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "mansion": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:mansion"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": "Enter a woodland mansion",
+    "icon": {
+      "count": 1,
+      "id": "filled_map"
+    },
+    "title": "Creeping Around",
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "mansion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

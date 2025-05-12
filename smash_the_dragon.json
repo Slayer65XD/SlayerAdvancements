@@ -1,0 +1,38 @@
+{
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "smash_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        },
+        "killing_blow": {
+          "tags": [
+            {
+              "id": "minecraft:mace_smash",
+              "expected": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "challenge",
+    "title": "Smash The Dragon",
+    "description": "Kill the Ender Dragon with a mace",
+    "icon": {
+      "id": "minecraft:mace"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "smash_dragon"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

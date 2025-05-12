@@ -1,0 +1,25 @@
+{
+    "parent": "slayeradvancements:piglins_fortune",
+    "criteria": {
+      "emerald_blocks": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:emerald_block",
+              "count": { "min": 64 }
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "title": "Multi-Millionaire",
+      "description": "Obtain a stack of emerald blocks",
+      "icon": { "id": "minecraft:emerald_block" },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    }
+  }
+  

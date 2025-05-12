@@ -1,0 +1,25 @@
+{
+    "parent": "slayeradvancements:multi_millionaire",
+    "criteria": {
+      "diamond_blocks": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:diamond_block",
+              "count": { "min": 64 }
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "title": "Hacking are we?",
+      "description": "Obtain a stack of diamond blocks",
+      "icon": { "id": "minecraft:diamond_block" },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    }
+  }
+  

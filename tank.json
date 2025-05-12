@@ -1,0 +1,60 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_scute"
+    },
+    "title": "Tank",
+    "description": "Drink a potion of the Turtle Master",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "turtle_master_low": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {
+            "amplifier": {
+              "min": 3,
+              "max": 3
+            }
+          },
+          "minecraft:resistance": {
+            "amplifier": {
+              "min": 2,
+              "max": 2
+            }
+          }
+        }
+      }
+    },
+    "turtle_master_high": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {
+            "amplifier": {
+              "min": 5,
+              "max": 5
+            }
+          },
+          "minecraft:resistance": {
+            "amplifier": {
+              "min": 3,
+              "max": 3
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "turtle_master_low",
+      "turtle_master_high"
+    ]
+  ]
+}

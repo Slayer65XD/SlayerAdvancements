@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion"
+    },
+    "title": "Hydrated",
+    "description": "Drink a water bottle while underwater",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "drink_potion_water": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:potion"]
+        },
+        "player": {
+          "location": {
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:water"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

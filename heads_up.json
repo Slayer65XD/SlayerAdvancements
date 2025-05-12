@@ -1,0 +1,60 @@
+{
+  "parent": "slayeradvancements:snout_and_about",
+  "display": {
+    "title": "Heads Up!",
+    "description": "Obtain all mob heads",
+    "icon": {
+      "id": "minecraft:creeper_head"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "creeper_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:creeper_head"] }]
+      }
+    },
+    "skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:skeleton_skull"] }]
+      }
+    },
+    "wither_skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:wither_skeleton_skull"] }]
+      }
+    },
+    "zombie_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:zombie_head"] }]
+      }
+    },
+    "dragon_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:dragon_head"] }]
+      }
+    },
+    "piglin_head": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:piglin_head"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["creeper_head"],
+    ["skeleton_skull"],
+    ["wither_skeleton_skull"],
+    ["zombie_head"],
+    ["dragon_head"],
+    ["piglin_head"]
+  ]
+}

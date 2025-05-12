@@ -1,0 +1,25 @@
+{
+    "parent": "slayeradvancements:block_of_the_century",
+    "criteria": {
+      "gold_blocks": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:gold_block",
+              "count": { "min": 64 }
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "title": "A Piglin's Fortune",
+      "description": "Get a stack of gold blocks",
+      "icon": { "id": "minecraft:gold_block" },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true
+    }
+  }
+  

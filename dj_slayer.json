@@ -1,0 +1,151 @@
+{
+  "parent": "slayeradvancements:root",
+  "display": {
+    "title": "DJ Slayer",
+    "description": "Collect every music disc",
+    "icon": {
+      "id": "minecraft:music_disc_mellohi"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "disc_11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_11"] }]
+      }
+    },
+    "disc_13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_13"] }]
+      }
+    },
+    "disc_blocks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_blocks"] }]
+      }
+    },
+    "disc_cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_cat"] }]
+      }
+    },
+    "disc_chirp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_chirp"] }]
+      }
+    },
+    "disc_far": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_far"] }]
+      }
+    },
+    "disc_mall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_mall"] }]
+      }
+    },
+    "disc_mellohi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_mellohi"] }]
+      }
+    },
+    "disc_pigstep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_pigstep"] }]
+      }
+    },
+    "disc_stal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_stal"] }]
+      }
+    },
+    "disc_strad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_strad"] }]
+      }
+    },
+    "disc_wait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_wait"] }]
+      }
+    },
+    "disc_ward": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_ward"] }]
+      }
+    },
+    "disc_creator_music_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_creator_music_box"] }]
+      }
+    },
+    "disc_creator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_creator"] }]
+      }
+    },
+    "disc_precipice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_precipice"] }]
+      }
+    },
+    "disc_otherside": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_otherside"] }]
+      }
+    },
+    "disc_relic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_relic"] }]
+      }
+    },
+    "disc_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_5"] }]
+      }
+    }
+  },
+  "requirements": [
+    ["disc_11"],
+    ["disc_13"],
+    ["disc_blocks"],
+    ["disc_cat"],
+    ["disc_chirp"],
+    ["disc_far"],
+    ["disc_mall"],
+    ["disc_mellohi"],
+    ["disc_pigstep"],
+    ["disc_stal"],
+    ["disc_strad"],
+    ["disc_wait"],
+    ["disc_ward"],
+    ["disc_creator_music_box"],
+    ["disc_creator"],
+    ["disc_precipice"],
+    ["disc_otherside"],
+    ["disc_relic"],
+    ["disc_5"]
+  ]
+}

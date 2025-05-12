@@ -1,0 +1,36 @@
+{
+  "parent": "slayeradvancements:murder_jacket",
+  "criteria": {
+    "rocket_kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:firework_rocket"
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "frame": "goal",
+    "title": "Bazooka",
+    "description": "Kill a player using a firework-loaded crossbow",
+    "icon": {
+      "id": "minecraft:firework_rocket",
+      "count": 1
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "rocket_kill"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,26 @@
+{
+    "parent": "slayeradvancements:root",
+    "criteria": {
+      "bee_kills_player": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:bee"
+          }
+        }
+      }
+    },
+
+    "display": {
+      "title": "Buzzkill",
+      "description": "Die from a bee sting",
+      "icon": {
+        "id": "minecraft:beehive"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }
+  

@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:goat_horn"
+      },
+      "title": "LeBron Horn",
+      "description": "Obtain and use a goat horn",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "slayeradvancements:root",
+    "criteria": {
+      "use_goat_horn": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:goat_horn"
+          }
+        }
+      }
+    }
+  }
+  

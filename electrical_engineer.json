@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:redstone_block"
+      },
+      "title": "Electrical Engineer",
+      "description": "Get a stack of redstone blocks",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "slayeradvancements:iron_man",
+    "criteria": {
+      "get_redstone_stack": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["minecraft:redstone_block"],
+              "count": {
+                "min": 64
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

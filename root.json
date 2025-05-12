@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+      "minecraft:profile": {
+        "name": "slayerpvp"
+      }
+    }
+    },
+    "title": "Slayer's Advancements",
+    "description": "Fin by name, Thin by Nature",
+    "background": "minecraft:block/cracked_deepslate_bricks",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "trigger_load": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

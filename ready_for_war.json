@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:enchanted_golden_apple"
+      },
+      "title": "Ready For War",
+      "description": "Eat an Enchanted Golden Apple",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "slayeradvancements:not_the_mcspicy_crumb",
+    "criteria": {
+      "eat_enchanted_golden_apple": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:enchanted_golden_apple"
+          }
+        }
+      }
+    }
+  }
+  
