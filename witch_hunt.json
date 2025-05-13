@@ -24,7 +24,11 @@
       "count": 1,
       "id": "minecraft:red_mushroom"
     },
-    "title": "Witch Hunt"
+    "title": "Witch Hunt",
+    "position": {
+      "x": -2,
+      "y": 17
+  }
   },
   "requirements": [
     [

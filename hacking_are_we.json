@@ -19,7 +19,11 @@
       "icon": { "id": "minecraft:diamond_block" },
       "frame": "challenge",
       "show_toast": true,
-      "announce_to_chat": true
+      "announce_to_chat": true,
+      "position": {
+      "x": 0,
+      "y": 9
+    }
     }
   }
   

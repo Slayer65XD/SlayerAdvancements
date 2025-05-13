@@ -18,6 +18,10 @@
   },
   "display": {
     "frame": "goal",
+    "position": {
+    "x": 0,
+    "y": 21
+  },
     "description": "Kill a player",
     "icon": {
       "count": 1,

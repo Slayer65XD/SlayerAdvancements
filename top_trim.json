@@ -6,7 +6,11 @@
     "icon": { "id": "minecraft:netherite_upgrade_smithing_template" },
     "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "position": {
+      "x": 2,
+      "y": 14
+  }
   },
   "criteria": {
     "spire": {

@@ -8,9 +8,13 @@
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": false,
+      "position": {
+      "x": 1,
+      "y": 21
+    }
     },
-    "parent": "slayeradvancements:ready_for_war",
+    "parent": "slayeradvancements:root",
     "criteria": {
       "full_chainmail_armor": {
         "trigger": "minecraft:inventory_changed",

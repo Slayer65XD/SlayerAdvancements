@@ -8,11 +8,15 @@
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": false,
+      "position": {
+      "x": 0,
+      "y": 4
+    }
     },
     "parent": "slayeradvancements:coal_digger",
     "criteria": {
-      "get_lapis_stack": {
+      "get_iron_stack": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [

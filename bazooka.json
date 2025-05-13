@@ -25,7 +25,11 @@
     },
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "position": {
+      "x": 0,
+      "y": 22
+    }
   },
   "requirements": [
     [

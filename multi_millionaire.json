@@ -19,7 +19,11 @@
       "icon": { "id": "minecraft:emerald_block" },
       "frame": "challenge",
       "show_toast": true,
-      "announce_to_chat": true
+      "announce_to_chat": true,
+      "position": {
+      "x": 0,
+      "y": 8
+    }
     }
   }
   

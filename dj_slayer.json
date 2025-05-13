@@ -9,7 +9,11 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "position": {
+      "x": -1,
+      "y": 20
+  }
   },
   "criteria": {
     "disc_11": {

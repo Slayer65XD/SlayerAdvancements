@@ -20,7 +20,11 @@
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": false,
+      "position": {
+      "x": 2,
+      "y": 3
+    }
     }
   }
   

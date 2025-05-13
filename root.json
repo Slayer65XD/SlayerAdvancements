@@ -14,7 +14,11 @@
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
-    "hidden": false
+    "hidden": false,
+    "position": {
+    "x": 0,
+    "y": 0
+  }
   },
   "criteria": {
     "trigger_load": {

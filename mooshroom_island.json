@@ -8,24 +8,31 @@
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": false,
+      "position": {
+    "x": -2,
+    "y": 18
+  }
     },
     "parent": "slayeradvancements:root",
     "criteria": {
-     "trigger": "minecraft:location",
-     "conditions": {
-       "player": [
-         {
-           "condition": "minecraft:entity_properties",
-           "entity": "this",
-           "predicate": {
-             "location": {
-               "biomes": "minecraft:mushroom_fields"
+      "mooshroom_island": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "biomes": "minecraft:mushroom_fields"
             }
             }
           }
         ]
         }
-  }
+      }
+  },
+  "sends_telemetry_event": true
 }
   

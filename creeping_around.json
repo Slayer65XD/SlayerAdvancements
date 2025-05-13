@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:witch_hunt",
+  "parent": "slayeradvancements:root",
   "criteria": {
     "mansion": {
       "conditions": {
@@ -25,7 +25,11 @@
       "id": "filled_map"
     },
     "title": "Creeping Around",
-    "frame": "goal"
+    "frame": "goal",
+    "position": {
+      "x": -2,
+      "y": 16
+    }
   },
   "requirements": [
     [

@@ -8,9 +8,13 @@
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": false,
+      "position": {
+      "x": 1,
+      "y": 13
+    }
     },
-    "parent": "slayeradvancements:oology",
+    "parent": "slayeradvancements:root",
     "criteria": {
       "obtain_wither_rose": {
         "trigger": "minecraft:inventory_changed",

@@ -30,7 +30,11 @@
       "count": 1,
       "id": "minecraft:spyglass"
     },
-    "title": "Is it Harvie's Rat?"
+    "title": "Is it Harvie's Rat?",
+    "position": {
+      "x": -2,
+      "y": 7
+    }
   },
   "requirements": [
     [

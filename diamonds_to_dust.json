@@ -8,9 +8,13 @@
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": false
+      "hidden": false,
+      "position": {
+      "x": 6,
+      "y": 2
+    }
     },
-    "parent": "slayeradvancements:oology",
+    "parent": "slayeradvancements:root",
     "criteria": {
       "break_diamond_hoe": {
         "trigger": "minecraft:item_durability_changed",

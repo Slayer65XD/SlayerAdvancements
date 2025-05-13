@@ -8,19 +8,22 @@
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "position": {
+      "x": 1,
+      "y": 17
+  }
   },
   "parent": "slayeradvancements:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:effects_changed",
       "conditions": {
-        "effect": {
-          "minecraft:conduit_power": {
-            "amplifier": {
-              "min": 0
-            }
-          }
+        "effects": {
+          "minecraft:conduit_power": 
+          {
+          "amplifier": 0
+        }
         }
       }
     }

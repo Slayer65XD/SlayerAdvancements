@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:witch_hunt",
+  "parent": "slayeradvancements:root",
   "criteria": {
     "monument": {
       "conditions": {
@@ -24,7 +24,11 @@
       "count": 1,
       "id": "minecraft:prismarine_bricks"
     },
-    "title": "Atlantis"
+    "title": "Atlantis",
+    "position": {
+      "x": 1,
+      "y": 18
+  }
   },
   "requirements": [
     [

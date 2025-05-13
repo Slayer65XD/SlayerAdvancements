@@ -18,6 +18,10 @@
   },
   "display": {
     "frame": "challenge",
+    "position": {
+      "x": 0,
+      "y": 15
+  },
     "description": "Kill the Warden",
     "icon": {
       "count": 1,
