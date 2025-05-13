@@ -1,6 +1,6 @@
 # SlayerAdvancements
 
-Custom Minecraft Datapack
+Custom Advancements Minecraft Datapack
 Version: 1.21.5
 
 Directory Tree Diagram:
