@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:harvies_brain",
       "criteria": {
         "requirement": {
             "trigger": "minecraft:placed_block",

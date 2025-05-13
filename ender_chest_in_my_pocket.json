@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:wicked_craftsmanship",
     "criteria": {
       "obtain_resin_brick": {
         "trigger": "minecraft:inventory_changed",

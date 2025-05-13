@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:atlantis",
     "criteria": {
       "kill_elder_guardian": {
         "trigger": "minecraft:player_killed_entity",

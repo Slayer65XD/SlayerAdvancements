@@ -8,9 +8,9 @@
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
-      "hidden": true
+      "hidden": false
     },
-    "parent": "slayeradvancements:not_the_mcspicy_crumb",
+    "parent": "slayeradvancements:murder_jacket",
     "criteria": {
       "eat_enchanted_golden_apple": {
         "trigger": "minecraft:consume_item",

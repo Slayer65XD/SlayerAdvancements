@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:a_masterpiece",
   "criteria": {
     "spyglass_at_emite": {
       "conditions": {

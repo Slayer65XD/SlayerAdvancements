@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:oology",
     "criteria": {
       "break_diamond_hoe": {
         "trigger": "minecraft:item_durability_changed",

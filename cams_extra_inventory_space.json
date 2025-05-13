@@ -4,13 +4,13 @@
         "id": "minecraft:light_blue_shulker_box"
       },
       "title": "Cam's Extra Inventory Space",
-      "description": "Obtain a shulker box",
+      "description": "Craft a shulker box",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:wicked_craftsmanship",
     "criteria": {
       "shulker_box": {
         "trigger": "minecraft:inventory_changed",

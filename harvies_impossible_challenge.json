@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:harvies_brain",
     "criteria": {
       "obtain_bedrock": {
         "trigger": "minecraft:inventory_changed",

@@ -16,7 +16,7 @@
     }
   },
   "display": {
-    "frame": "goal",
+    "frame": "challenge",
     "title": "Bazooka",
     "description": "Kill a player using a firework-loaded crossbow",
     "icon": {

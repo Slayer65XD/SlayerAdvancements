@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:bricked_up",
     "criteria": {
       "has_copper_blocks": {
         "trigger": "minecraft:inventory_changed",

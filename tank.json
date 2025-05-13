@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:ready_for_war",
   "criteria": {
     "turtle_master_low": {
       "trigger": "minecraft:effects_changed",

@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:oology",
     "criteria": {
       "has_turtle_shell": {
         "trigger": "minecraft:inventory_changed",

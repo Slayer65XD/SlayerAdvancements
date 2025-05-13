@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:witch_hunt",
   "criteria": {
     "monument": {
       "conditions": {

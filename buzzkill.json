@@ -1,5 +1,5 @@
 {
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:harvies_brain",
     "criteria": {
       "bee_kills_player": {
         "trigger": "minecraft:entity_killed_player",

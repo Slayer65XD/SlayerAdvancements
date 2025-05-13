@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:murder_jacket",
     "criteria": {
       "crafted_end_crystal": {
         "trigger": "minecraft:inventory_changed",

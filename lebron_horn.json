@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:ready_for_war",
     "criteria": {
       "use_goat_horn": {
         "trigger": "minecraft:using_item",
