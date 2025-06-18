@@ -8,7 +8,7 @@ Directory Tree Diagram:
 SlayerAdvancements
 ├── data
 │   └── slayeradvancements
-│       └── advancements
+│       └── advancement
 │           ├── a_masterpiece.json
 │           ├── atlantis.json
 │           ├── bazooka.json
