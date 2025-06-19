@@ -1,0 +1,35 @@
+{
+    "parent": "slayeradvancements:root",
+    "criteria": {
+      "struck_mooshroom": {
+        "conditions": {
+          "victims": [
+            [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:mooshroom"
+                }
+              }
+            ]
+          ]
+        },
+        "trigger": "minecraft:channeled_lightning"
+      }
+    },
+    "display": {
+      "frame": "task",
+      "description": "Strike a mooshroom with lightning",
+      "icon": {
+        "id": "minecraft:trident"
+      },
+      "title": "Shroom for Improvement"
+    },
+    "requirements": [
+      [
+        "struck_mooshroom"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
