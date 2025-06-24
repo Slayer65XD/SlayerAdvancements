@@ -20,7 +20,7 @@
         "trigger": "minecraft:item_durability_changed",
         "conditions": {
           "durability": 0,
-          "items": {
+          "item": {
             "items": ["minecraft:diamond_hoe"]
           }
         }
