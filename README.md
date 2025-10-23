@@ -1,7 +1,7 @@
 # SlayerAdvancements
 
 Custom Advancements Minecraft Datapack
-Version: 1.21.5
+Version: 1.21.10
 
 Directory Tree Diagram:
 
