@@ -135,6 +135,12 @@
       "conditions": {
         "items": [{ "items": ["minecraft:music_disc_tears"] }]
       }
+    },
+    "disc_lava_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:music_disc_lava_chicken"] }]
+      }
     }
   },
   "requirements": [
@@ -157,6 +163,7 @@
     ["disc_otherside"],
     ["disc_relic"],
     ["disc_5"],
-    ["disc_tears"]
+    ["disc_tears"],
+    ["disc_lava_chicken"]
   ]
 }
