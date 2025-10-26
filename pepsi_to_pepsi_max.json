@@ -1,0 +1,35 @@
+{
+    "parent": "slayeradvancements:shroom_for_improvement",
+    "criteria": {
+      "struck_pig": {
+        "conditions": {
+          "victims": [
+            [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:pig"
+                }
+              }
+            ]
+          ]
+        },
+        "trigger": "minecraft:channeled_lightning"
+      }
+    },
+    "display": {
+      "frame": "task",
+      "description": "Strike a pig with lightning",
+      "icon": {
+        "id": "minecraft:trident"
+      },
+      "title": "Pepsi to Pepsi Max"
+    },
+    "requirements": [
+      [
+        "struck_pig"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }

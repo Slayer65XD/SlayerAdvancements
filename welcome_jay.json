@@ -16,7 +16,7 @@
   },
   "parent": "slayeradvancements:root",
   "criteria": {
-    "has_bundle": {
+    "has_smoker": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
