@@ -9,7 +9,7 @@
     }
     },
     "title": "Slayer's Advancements",
-    "description": "Fin by name, Thin by Nature",
+    "description": "Over 50 new tasks, goals and challenges created by SlayerPvP",
     "background": "minecraft:block/cracked_deepslate_bricks",
     "frame": "task",
     "show_toast": false,

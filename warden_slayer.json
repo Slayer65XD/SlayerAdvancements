@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:jake_will_be_disappointed",
   "criteria": {
     "killed_warden": {
       "conditions": {

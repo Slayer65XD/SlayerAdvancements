@@ -1,0 +1,36 @@
+{
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    "pillager_outpost": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:pillager_outpost"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": "Find a pilager outpost",
+    "icon": {
+      "count": 1,
+      "id": "crossbow"
+    },
+    "title": "Raiders of the Lost Outpost",
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "pillager_outpost"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -14,7 +14,7 @@
       "y": 19
     }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:tank",
     "criteria": {
       "has_turtle_shell": {
         "trigger": "minecraft:inventory_changed",

@@ -14,7 +14,7 @@
       "y": 13
     }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:spooky_glow",
     "criteria": {
       "obtain_wither_rose": {
         "trigger": "minecraft:inventory_changed",

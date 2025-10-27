@@ -14,7 +14,7 @@
       "y": 21
     }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:lebron_horn",
     "criteria": {
       "full_chainmail_armor": {
         "trigger": "minecraft:inventory_changed",

@@ -1,0 +1,75 @@
+{
+  "parent": "slayeradvancements:root",
+  "criteria": {
+    
+    "desert": {
+      "conditions": {
+        "trigger": "minecraft:location","player": [{
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "minecraft:village_desert"
+                    }}}]}},
+
+    "plains": {
+      "conditions": {
+        "trigger": "minecraft:location","player": [{
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "minecraft:village_plains"
+                    }}}]}},
+
+    "savanna": {
+      "conditions": {
+        "trigger": "minecraft:location","player": [{
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "minecraft:village_savanna"
+                    }}}]}},
+
+    "snowy": {
+      "conditions": {
+        "trigger": "minecraft:location","player": [{
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "minecraft:village_snowy"
+                    }}}]}},
+
+    "taiga": {
+      "conditions": {
+        "trigger": "minecraft:location","player": [{
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "structures": "minecraft:village_taiga"
+                    }}}]}}
+
+  },
+  "display": {
+    "description": "Visit every type of village",
+    "icon": {
+      "count": 1,
+      "id": "compass"
+    },
+    "title": "World Traveller",
+    "frame": "challenge"
+  },
+  "requirements": [
+    ["desert"],
+    ["plains"],
+    ["savanna"],
+    ["snowy"],
+    ["taiga"]
+  ],
+  "sends_telemetry_event": true
+}
+
+   

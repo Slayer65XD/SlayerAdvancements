@@ -14,7 +14,7 @@
       "y": 1
   }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:ultimate_copperhead",
     "criteria": {
       "get_copper_stairs": {
         "trigger": "minecraft:inventory_changed",

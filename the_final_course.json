@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:rabbit_stew"
+      },
+      "title": "The Final Course",
+      "description": "Eat Rabbit Stew",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "slayeradvancements:not_the_mcspicy_crumb",
+    "criteria": {
+      "eat_rabbit_stew": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:rabbit_stew"
+          }
+        }
+      }
+    }
+  }
+  
