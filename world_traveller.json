@@ -1,63 +1,92 @@
 {
   "parent": "slayeradvancements:root",
   "criteria": {
-    
     "desert": {
+      "trigger": "minecraft:location",
       "conditions": {
-        "trigger": "minecraft:location","player": [{
+        "player": [
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "location": {
-                    "structures": "minecraft:village_desert"
-                    }}}]}},
-
+              "location": {
+                "structures": "minecraft:village_desert"
+              }
+            }
+          }
+        ]
+      }
+    },
     "plains": {
+      "trigger": "minecraft:location",
       "conditions": {
-        "trigger": "minecraft:location","player": [{
+        "player": [
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "location": {
-                    "structures": "minecraft:village_plains"
-                    }}}]}},
-
+              "location": {
+                "structures": "minecraft:village_plains"
+              }
+            }
+          }
+        ]
+      }
+    },
     "savanna": {
+      "trigger": "minecraft:location",
       "conditions": {
-        "trigger": "minecraft:location","player": [{
+        "player": [
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "location": {
-                    "structures": "minecraft:village_savanna"
-                    }}}]}},
-
+              "location": {
+                "structures": "minecraft:village_savanna"
+              }
+            }
+          }
+        ]
+      }
+    },
     "snowy": {
+      "trigger": "minecraft:location",
       "conditions": {
-        "trigger": "minecraft:location","player": [{
+        "player": [
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "location": {
-                    "structures": "minecraft:village_snowy"
-                    }}}]}},
-
+              "location": {
+                "structures": "minecraft:village_snowy"
+              }
+            }
+          }
+        ]
+      }
+    },
     "taiga": {
+      "trigger": "minecraft:location",
       "conditions": {
-        "trigger": "minecraft:location","player": [{
+        "player": [
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-                "location": {
-                    "structures": "minecraft:village_taiga"
-                    }}}]}}
-
+              "location": {
+                "structures": "minecraft:village_taiga"
+              }
+            }
+          }
+        ]
+      }
+    }
   },
   "display": {
     "description": "Visit every type of village",
     "icon": {
-      "count": 1,
-      "id": "compass"
+      "id": "compass",
+      "count": 1
     },
     "title": "World Traveller",
     "frame": "challenge"
@@ -71,5 +100,3 @@
   ],
   "sends_telemetry_event": true
 }
-
-   
