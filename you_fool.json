@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:poisonous_potato"
+      },
+      "title": "You Fool",
+      "description": "Eat a poisonous potato",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "slayeradvancements:not_the_mcspicy_crumb",
+    "criteria": {
+      "eat_enchanted_golden_apple": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:poisonous_potato"
+          }
+        }
+      }
+    }
+  }
+  

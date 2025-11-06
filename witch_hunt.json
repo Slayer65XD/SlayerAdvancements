@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:lost_at_sea",
   "criteria": {
     "witch_hut": {
       "conditions": {

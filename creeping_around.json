@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:raiders_of_the_lost_outpost",
   "criteria": {
     "mansion": {
       "conditions": {

@@ -1,0 +1,51 @@
+{
+  "parent": "slayeradvancements:lost_at_sea",
+  "criteria": {
+    "desert": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:desert_pyramid"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jungle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:jungle_pyramid"
+              }
+            }
+            }
+        ]
+        }
+    }   
+  },
+  "display": {
+    "description": "Visit both temples",
+    "icon": {
+      "id": "minecraft:chiseled_sandstone",
+      "count": 1
+    },
+    "title": "Temple Raider",
+    "frame": "goal"
+  },
+  "requirements": [
+    ["desert"],
+    ["jungle"]
+  ],
+  "sends_telemetry_event": true
+}

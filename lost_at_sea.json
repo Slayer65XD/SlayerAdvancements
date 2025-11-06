@@ -1,7 +1,7 @@
 {
-  "parent": "slayeradvancements:lost_at_sea",
+  "parent": "slayeradvancements:root",
   "criteria": {
-    "igloo": {
+    "shipwreck": {
       "conditions": {
         "player": [
           {
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "structures": "minecraft:igloo"
+                "structures": "minecraft:shipwreck"
               }
             }
           }
@@ -19,17 +19,17 @@
     }
   },
   "display": {
-    "description": "Find an igloo",
+    "description": "Find a shipwreck",
     "icon": {
       "count": 1,
-      "id": "blue_ice"
+      "id": "oak_boat"
     },
-    "title": "ICEMAN",
+    "title": "Lost at Sea",
     "frame": "task"
   },
   "requirements": [
     [
-      "igloo"
+      "shipwreck"
     ]
   ],
   "sends_telemetry_event": true
