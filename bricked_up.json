@@ -14,7 +14,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:exploration_root",
     "criteria": {
       "obtain_resin_brick": {
         "trigger": "minecraft:inventory_changed",

@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:jake_will_be_disappointed",
+  "parent": "slayeradvancements:combat_root",
   "criteria": {
     "smash_dragon": {
       "trigger": "minecraft:player_killed_entity",

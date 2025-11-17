@@ -1,0 +1,17 @@
+{
+  "parent": "slayeradvancements:root",
+  "display": {
+    "icon": { "id": "minecraft:compass" },
+    "title": "Exploration",
+    "description": "Discover the world and its secrets",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

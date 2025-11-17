@@ -14,7 +14,7 @@
       "y": 14
   }
   },
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:exploration_root",
   "criteria": {
     "trade_with_wanderer": {
       "trigger": "minecraft:villager_trade",

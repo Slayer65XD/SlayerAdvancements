@@ -14,7 +14,7 @@
       "y": 2
   }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:exploration_root",
     "criteria": {
       "get_piglin_head": {
         "trigger": "minecraft:inventory_changed",

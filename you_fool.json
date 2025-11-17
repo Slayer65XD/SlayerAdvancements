@@ -5,12 +5,12 @@
       },
       "title": "You Fool",
       "description": "Eat a poisonous potato",
-      "frame": "goal",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:not_the_mcspicy_crumb",
+    "parent": "slayeradvancements:iron_belly",
     "criteria": {
       "eat_enchanted_golden_apple": {
         "trigger": "minecraft:consume_item",

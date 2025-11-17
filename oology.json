@@ -14,7 +14,7 @@
       "y": 9
   }
   },
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:exploration_root",
   "criteria": {
     "blue_egg": {
       "trigger": "minecraft:inventory_changed",

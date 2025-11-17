@@ -14,7 +14,7 @@
       "y": 19
     }
     },
-    "parent": "slayeradvancements:tank",
+    "parent": "slayeradvancements:the_middle_ages",
     "criteria": {
       "has_turtle_shell": {
         "trigger": "minecraft:inventory_changed",

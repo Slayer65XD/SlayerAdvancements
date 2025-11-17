@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:lost_at_sea",
+  "parent": "slayeradvancements:structure_root",
   "criteria": {
     "igloo": {
       "conditions": {

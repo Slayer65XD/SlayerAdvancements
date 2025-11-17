@@ -14,7 +14,7 @@
       "y": 24
     }
     },
-    "parent": "slayeradvancements:murder_jacket",
+    "parent": "slayeradvancements:combat_root",
     "criteria": {
       "eat_enchanted_golden_apple": {
         "trigger": "minecraft:consume_item",

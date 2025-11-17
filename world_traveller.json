@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:creeping_around",
+  "parent": "slayeradvancements:structure_root",
   "criteria": {
     "desert": {
       "trigger": "minecraft:location",

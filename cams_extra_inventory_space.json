@@ -14,7 +14,7 @@
       "y": 12
     }
     },
-    "parent": "slayeradvancements:wicked_craftsmanship",
+    "parent": "slayeradvancements:ender_chest_in_my_pocket",
     "criteria": {
       "shulker_box": {
         "trigger": "minecraft:inventory_changed",

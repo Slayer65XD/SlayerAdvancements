@@ -1,23 +1,23 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:cake"
+        "id": "minecraft:lily_of_the_valley"
       },
-      "title": "The Lie",
-      "description": "Wheat, sugar, milk and eggs!",
+      "title": "It wasn't the ricin...",
+      "description": "It was most likely a flower called lily of the valley",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:foodstuff_root",
+    "parent": "slayeradvancements:exploration_root",
     "criteria": {
-      "obtain_cake": {
+      "obtain_lily_of_the_valley": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": ["minecraft:cake"]
+              "items": ["minecraft:lily_of_the_valley"]
             }
           ]
         }

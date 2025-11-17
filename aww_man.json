@@ -1,5 +1,5 @@
 {
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:exploration_root",
     "criteria": {
       "creeper_kills_player": {
         "trigger": "minecraft:entity_killed_player",

@@ -1,5 +1,5 @@
 {
-    "parent": "slayeradvancements:shroom_for_improvement",
+    "parent": "slayeradvancements:combat_root",
     "criteria": {
       "struck_pig": {
         "conditions": {

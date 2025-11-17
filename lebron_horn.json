@@ -14,7 +14,7 @@
       "y": 26
     }
     },
-    "parent": "slayeradvancements:ready_for_war",
+    "parent": "slayeradvancements:utility_root",
     "criteria": {
       "use_goat_horn": {
         "trigger": "minecraft:using_item",

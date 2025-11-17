@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:top_trim",
   "display": {
     "title": "Digging Up the Past",
     "description": "Collect every pottery sherd",

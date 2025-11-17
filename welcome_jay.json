@@ -14,7 +14,7 @@
       "y": 10
     }
   },
-  "parent": "slayeradvancements:jake_will_be_disappointed",
+  "parent": "slayeradvancements:utility_root",
   "criteria": {
     "has_smoker": {
       "trigger": "minecraft:inventory_changed",

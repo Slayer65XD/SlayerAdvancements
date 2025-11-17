@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:wooden_sword"
+		},
+		"title": "Knockback Stick",
+		"description": "Enchant a wooden sword with Knockback II",
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "slayeradvancements:combat_root",		
+	"criteria": {
+		"power": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:wooden_sword"
+						],
+						"predicates": {
+							"enchantments": [
+								{
+										"enchantments": "minecraft:knockback",
+                                        "levels": {
+										"min": 2
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

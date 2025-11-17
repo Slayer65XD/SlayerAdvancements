@@ -14,7 +14,7 @@
       "y": 17
   }
   },
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:echoes_of_the_deep",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:effects_changed",

@@ -14,7 +14,7 @@
       "y": 10
     }
   },
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:utility_root",
   "criteria": {
     "has_bundle": {
       "trigger": "minecraft:inventory_changed",

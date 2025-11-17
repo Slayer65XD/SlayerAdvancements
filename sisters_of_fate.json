@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:utility_root",
     "criteria": {
       "obtain_clock": {
         "trigger": "minecraft:inventory_changed",

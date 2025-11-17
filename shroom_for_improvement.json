@@ -1,5 +1,5 @@
 {
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:pepsi_to_pepsi_max",
     "criteria": {
       "struck_mooshroom": {
         "conditions": {

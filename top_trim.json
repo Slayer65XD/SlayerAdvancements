@@ -1,8 +1,8 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:oology",
   "display": {
     "title": "Tip of the Top Trim",
-    "description": "Obtain every armour trim",
+    "description": "Collect every armour trim",
     "icon": { "id": "minecraft:netherite_upgrade_smithing_template" },
     "frame": "challenge",
     "show_toast": true,

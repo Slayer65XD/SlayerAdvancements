@@ -14,7 +14,7 @@
     "y": 18
   }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:exploration_root",
     "criteria": {
       "mooshroom_island": {
         "trigger": "minecraft:location",

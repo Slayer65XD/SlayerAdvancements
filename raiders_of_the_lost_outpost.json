@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:witch_hunt",
+  "parent": "slayeradvancements:structure_root",
   "criteria": {
     "pillager_outpost": {
       "conditions": {

@@ -14,7 +14,7 @@
         "y": 16
   }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:combat_root",
     "criteria": {
       "kill_squid": {
         "trigger": "minecraft:player_killed_entity",

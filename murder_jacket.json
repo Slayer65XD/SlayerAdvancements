@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:combat_root",
   "criteria": {
     "killed_player": {
       "conditions": {

@@ -14,7 +14,7 @@
       "y": 2
     }
     },
-    "parent": "slayeradvancements:bricked_up",
+    "parent": "slayeradvancements:mining_root",
     "criteria": {
       "has_copper_blocks": {
         "trigger": "minecraft:inventory_changed",

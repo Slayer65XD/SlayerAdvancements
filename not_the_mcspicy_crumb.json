@@ -14,7 +14,7 @@
       "y": 7
     }
   },
-  "parent": "slayeradvancements:iron_belly",
+  "parent": "slayeradvancements:you_fool",
   "criteria": {
     "eat_pufferfish": {
       "trigger": "minecraft:consume_item",

@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "slayeradvancements:not_the_mcspicy_crumb",
+    "parent": "slayeradvancements:foodstuff_root",
     "criteria": {
       "eat_rabbit_stew": {
         "trigger": "minecraft:consume_item",

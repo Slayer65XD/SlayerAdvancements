@@ -14,7 +14,7 @@
         "y": 6
   }
     },
-    "parent": "slayeradvancements:root",
+    "parent": "slayeradvancements:foodstuff_root",
     "criteria": {
       "eat_rotten_flesh": {
         "trigger": "minecraft:consume_item",

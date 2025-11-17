@@ -1,5 +1,5 @@
 {
-  "parent": "slayeradvancements:root",
+  "parent": "slayeradvancements:structure_root",
   "criteria": {
     "shipwreck": {
       "conditions": {
